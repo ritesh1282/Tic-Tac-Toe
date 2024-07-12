@@ -61,7 +61,7 @@ function check(item) {
   if ((var1 === var2 && var2 === var3) && (var1 != "")) {
 
     hi.classList.remove("hide");
-    msg.insertAdjacentText("afterbegin", `${var1} wala bandaa jeet gya bhai...!!🙌🙌`);
+    msg.insertAdjacentText("afterbegin", `${var1} is Winner ...`);
     reset_Game.classList.add("hide");
     for (const iterator of box) {
       iterator.disabled = true;
