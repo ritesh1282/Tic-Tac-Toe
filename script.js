@@ -28,8 +28,8 @@ function disableButtons() {
   for (const iterator of box) {
     iterator.textContent = "";
     iterator.disabled = false;
-    msg.textContent=""
   }
+  msg.textContent="";
 
 }
 
